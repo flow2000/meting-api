@@ -10,6 +10,14 @@
 - 灵感源于 [https://api.fczbl.vip/163/](https://api.fczbl.vip/163/)
 - 部分参考 [Meting-API](https://github.com/metowolf/Meting-API)
 
+## Docker Pull
+
+```bash
+docker pull flow2000/meting-api
+
+docker run -itd --name meting-api -p 8080:8080 flow2000/meting-api
+```
+
 ## Build Setup
 
 ```bash
