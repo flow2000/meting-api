@@ -1,6 +1,7 @@
 <?php
 // 设置API路径
-define('API_URI', api_uri());
+// api_uri() 获取本地部署的ip地址
+define('API_URI', "http://meting.panghai.top/");
 // 设置中文歌词
 define('TLYRIC', true);
 // 设置歌单文件缓存及时间
